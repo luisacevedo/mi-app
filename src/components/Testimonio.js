@@ -1,11 +1,12 @@
 import React from "react";
+import Foto from "../pictures/testimonio-emma.png"
 
-function Testimonio() {
+export function Testimonio() {
     return (
         <div className='contenedor-testimonio'>
             <img
                 className='imagen-testimonio'
-                src='../imagenes/testimonio-emma.png'
+                src={Foto}
                 alt='fotografia de Emma'/>
             <div className='contenedor-texto-testimonio'>
                 <p className='nombre-testimonio'>Emma Bostian en Suecia</p>
@@ -15,5 +16,3 @@ function Testimonio() {
         </div>
     )
 }
-
-export default Testimonio;
