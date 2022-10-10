@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='App'>
       <div className='contenedor-principal'>
-        <h1>Esto es lo que dicen nuestros estudiantes sobre freeCodeCamp:</h1>
+        <h1>Here is what our students say about freeCodeCamp:</h1>
           <Testimonio 
           {...userData.user1} />
           <Testimonio 
